@@ -19,7 +19,7 @@ int main(){
 }
 
 void stat(const double a[],int n,double b[]){
-    double sum = 0,sum2 = 0,koon = 1,sumhar = 0,standard,gemetric,harmonic,max = -999,min = 999;
+    double sum = 0,sum2 = 0,koon = 1,sumhar = 0,max = -999,min = 999;
     for(int i = 0 ; i < n ; i++){
         sum += a[i];
     }
